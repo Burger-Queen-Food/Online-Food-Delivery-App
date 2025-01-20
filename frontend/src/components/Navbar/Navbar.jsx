@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Navbar.css';
 import { assets } from '../../assets/assets'
 
-export const Navbar = () => {
+const Navbar = () => {
 
     const [menu, setMenu] = useState("home")
 
@@ -28,5 +28,7 @@ export const Navbar = () => {
         </div>
     )
 }
+
+export default Navbar;
 
 
